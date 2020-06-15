@@ -45,7 +45,7 @@ Item {
             style: DialStyle {
                 id:dialStylee
                 tickmarkStepSize: 1
-                tickmarkInset: 23.0
+                tickmarkInset: 27.0
 
                 tickmark: Item {
                     height: 20

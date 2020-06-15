@@ -34,7 +34,21 @@ Item {
             } // end of onValueChanged:
 
             style: DialStyle {
-                tickmarkInset: 25.0
+                //tickmarkInset: 30.0
+                //tickmarkCount: 25
+                tickmarkStepSize: 5
+                tickmark: Item {
+                    id: name
+                    height: 20
+                    width: 20
+                    Text {
+                        id: nameT
+                        text: styleData.value
+                        font.pixelSize: 12
+                        anchors.top: parent.top
+                        anchors.horizontalCenter: parent.horizontalCenter
+                    }
+                }
             }
         }
         Label

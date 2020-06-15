@@ -3,7 +3,6 @@
         <file>dd.qml</file>
         <file>dd2.qml</file>
         <file>dd3.qml</file>
-        <file>DialStyle.qml</file>
         <file>dd4.qml</file>
     </qresource>
 </RCC>
